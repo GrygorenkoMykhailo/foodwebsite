@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Реєстрація - Блог Фуді</title>
+
+  <!-- Додати мета-теги Open Graph Protocol (OGP) -->
+  <meta property="og:title" content="Реєстрація - Блог Фуді">
+  <meta property="og:description" content="Приєднуйтесь до нашої спільноти Блог Фуді. Зареєструйтеся зараз!">
+  <meta property="og:image" content="assets/images/foodie-blog.png">
+  <meta property="og:url" content="https://thankful-smoke-06e585e10.1.azurestaticapps.net/">
+  <meta name="og:site_name" content="Блог Фуді">
+
+  <!-- Об'єднати зовнішні CSS файли -->
+  <link rel="stylesheet" href="signup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+  <!-- Асинхронне завантаження зовнішніх скриптів -->
+  <script defer src="signup.js"></script>
+  <script defer src="script.js"></script>
+
+</head>
+<body>
+<div class="wrapper">
+  <header>Реєстрація - Блог Фуді</header>
+  <form action="#">
+    <div class="field email">
+      <label for="email"><h3>Введіть вашу адресу електронної пошти:</h3></label>
+      <div class="input-area">
+        <input type="text" placeholder="Адреса електронної пошти">
+        <i class="icon fas fa-envelope"></i>
+        <i class="error error-icon fas fa-exclamation-circle"></i>
+      </div>
+      <div class="error error-txt">Електронна пошта не може бути порожньою</div>
+    </div>
+    <div class="field password">
+      <label for="email"><h3>Введіть ваш пароль:</h3></label>
+      <div class="input-area">
+        <input type="password" placeholder="Пароль">
+        <i class="icon fas fa-lock"></i>
+        <i class="error error-icon fas fa-exclamation-circle"></i>
+      </div>
+      <div class="error error-txt">Пароль не може бути порожнім</div>
+    </div>
+    <input type="submit" value="Зареєструватися">
+  </form>
+</div>
+</body>
+</html>

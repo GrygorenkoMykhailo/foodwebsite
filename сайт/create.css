@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0 1em 0;
+}
+
+header h1{
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+section .container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+section .container a{
+    margin: 1em 0 1em 0;
+    font-size: larger;
+}
+
+section .container img{
+    max-width: 600px;
+}
+
+section .container input{
+    padding: 1em 0 1em 0;
+}
+
+section .container label,input,button{
+    margin: 1em 0 1em 0;
+}
+
+section .container .create{
+    padding: 1em;
+    width: 10%;
+}
+

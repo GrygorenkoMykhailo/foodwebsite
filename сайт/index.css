@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0 1em 0;
+}
+
+header h1{
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    padding: 1em 0 1em 0;
+}
+
+.first .container{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.first .container h3{
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first .container h3 .search input{
+    padding: .3em;
+}
+
+.first .container ul li{
+    display: block;
+}
+
+.first .container ul li .recipe-card{
+    border: .3px solid black;
+    margin: 1em 0 1em 0;
+    padding: 1em;
+}
+
+.first .container ul li .recipe-card h4{
+    padding: 1em 0 1em 0;
+}
+
+.first .container ul li .recipe-card p{
+    padding: 0 0 1em 0;
+}
+
+.first .container ul li .recipe-card button{
+    padding: 1em;
+    background-color: rgb(219, 85, 85);
+}
+
+.create-button-link{
+    position: sticky;
+    bottom: 100px;
+    margin-left: 100px;
+}
+
+.add{
+    width: 5em;
+    height: 5em;
+    background-color: rgb(83, 225, 109);
+}
