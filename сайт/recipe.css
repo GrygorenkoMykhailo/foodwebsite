@@ -1,57 +1,65 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
 }
 
-header{
+header {
     background-color: aqua;
     display: flex;
     justify-content: center;
-    padding: 1em 0 1em 0;
+    padding: 1em 0;
 }
 
-header h1{
+header h1 {
     display: flex;
     justify-content: flex-start;
     width: 70%;
 }
 
-section{
+section {
     display: flex;
     justify-content: center;
 }
 
-section .container{
+section .container {
     display: flex;
     flex-direction: column;
     width: 70%;
 }
 
-section .container a{
-    margin: 1em 0 1em 0;
+section .container a {
+    margin: 1em 0;
     font-size: larger;
 }
 
-section .container img{
+section .container img {
     max-width: 600px;
 }
 
-section .container input{
-    padding: 1em 0 1em 0;
+section .container form {
+    display: flex;
+    flex-direction: column;
 }
 
-section .container label,input,button{
-    margin: 1em 0 1em 0;
+section .container form input[type="file"],
+section .container form input[type="text"],
+section .container form label,
+section .container form button.create {
+    margin: 1em 0;
 }
 
-section .container .save{
+section .container form input[type="text"],
+section .container form input[type="file"] {
+    padding: 1em 0;
+}
+
+section .container form button.save {
     padding: 1em;
-    width: 10%;
+    width: 15%;
 }
-
